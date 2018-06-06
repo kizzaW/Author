@@ -204,7 +204,7 @@ a {
 }
 
 .animate {
-    transition: 0.5ms ease-in-out opacity;
+    transition: 2.5s ease-in-out opacity;
 }
 
 
