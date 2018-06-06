@@ -1,16 +1,23 @@
 var slideIndex = 0;
+var slides = document.getElementsByClassName("Slides");
 
 function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("Slides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].classList.remove('show')
-        slides[i].classList.add('hide')
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1 }
-    slides[slideIndex - 1].classList.add('show')
-    slides[slideIndex - 1].classList.remove('hide')
 
+    slideIndex = slideIndex++;
+
+    if (slideIndex > slides.length) {
+        slideIndex = 0;
+    }
+
+    slides[slideIndex].classList.add('show')
+    slides[slideIndex].classList.remove('hide')
+
+    for (var otherPanelIndexes = 0; otherPanelIndexes < slides.length; otherPanelIndexes++) {
+
+        if (otherPanelIndexes !== slideIndex) {
+            slides[otherPanelIndexes].classList.remove('show');
+            slides[otherPanelIndexes].classList.add('hide');
+        }
+    }
 } // Change image every 5 seconds
 setInterval(showSlides, 5000)
