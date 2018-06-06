@@ -3,7 +3,7 @@ var slides = document.getElementsByClassName("Slides");
 
 function showSlides() {
 
-    slideIndex = slideIndex++;
+    slideIndex = slideIndex + 1;
 
     if (slideIndex > slides.length) {
         slideIndex = 0;
