@@ -20,4 +20,4 @@ function showSlides() {
         }
     }
 } // Change image every 5 seconds
-setInterval(showSlides, 5000)
+setInterval(showSlides, 8000)
