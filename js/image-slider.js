@@ -5,7 +5,7 @@ function showSlides() {
 
     slideIndex = slideIndex + 1;
 
-    if (slideIndex > slides.length) {
+    if (slideIndex >= slides.length) {
         slideIndex = 0;
     }
 
