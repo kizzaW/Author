@@ -13,4 +13,4 @@ function showSlides() {
     slides[slideIndex - 1].classList.remove('hide')
 
 } // Change image every 5 seconds
-setInterval(showSlide, 5000)
+setInterval(showSlides, 5000)
