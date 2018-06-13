@@ -232,8 +232,9 @@ a {
     display: flex;
 }
 
-.logo {
+.graphic {
     max-width: 100px;
+    margin: 1em auto;
 }
 
 
