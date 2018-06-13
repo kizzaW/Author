@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created by Bob Evens for Wikipedia -->
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+<title>
+ BS: Sluice and pumping station
+</title>
+ <defs>
+  <style type="text/css">
+    .ublue {fill:#003399}
+    .ulblue {fill:#6281c0}  
+    .uwall {fill:black}
+    .usluice {fill:#80a080}
+    .white {fill:white}
+  </style>
+ </defs>
+
+  <g>
+   <rect id="canal" class="ulblue" x="200" y="0" width="100" height="500"/>
+   <rect id="bar1" class="uwall" x="190" y="230" width="30" height="200"/>
+   <rect id="bar2" class="uwall" x="280" y="230" width="30" height="200"/>
+   <rect id="sluice" class="uwall" x="146" y="280" width="188" height="100"/>
+   <polygon id="hut" class="uwall" points="334,380 334,180 412,136 490,180 490,380 334,380 "/>
+   <path id="win1" class="white" d="M348 250 a30,30 0 0,1 60,0 l0 30 -60 0 0 -30z" />
+   <path id="win2" class="white" d="M418 250 a30,30 0 0,1 60,0 l0 30 -60 0 0 -30z" />
+ </g>
+</svg>
