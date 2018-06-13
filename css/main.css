@@ -225,6 +225,18 @@ a {
 }
 
 
+/* footer*/
+
+.footer {
+    background: gray;
+    display: flex;
+}
+
+.footer img {
+    max-width: 100px;
+}
+
+
 /* media */
 
 @media only screen and (max-width:1250px) {}
