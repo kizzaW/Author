@@ -227,12 +227,12 @@ a {
 
 /* footer*/
 
-.footer {
+.main-footer {
     background: gray;
     display: flex;
 }
 
-.footer img {
+.main-footer img {
     max-width: 100px;
 }
 
