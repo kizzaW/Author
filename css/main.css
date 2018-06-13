@@ -175,6 +175,17 @@ a {
     background: #fff;
 }
 
+.image-2 img {
+    max-width: 300px;
+    max-height: 250px;
+    top: 35px;
+    margin: 13%;
+    padding: 14px 13px;
+    border-width: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
 .display-carousel {
     overflow: hidden;
     border-style: solid;
