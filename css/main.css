@@ -159,6 +159,10 @@ a {
     border-radius: 60px;
 }
 
+.thumbnail:hover {
+    width: 400px;
+}
+
 
 /** Photo box and gallery**/
 
