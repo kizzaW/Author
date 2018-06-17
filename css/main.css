@@ -138,6 +138,10 @@ a {
 }
 
 .advert-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
     border: solid 5px white;
     width: 200px;
     margin: 10px;
@@ -263,10 +267,10 @@ a {
     .info-box {
         max-width: 99%;
     }
-}
-
-
-/* for smart watch*/
-
-@media only screen and (max-width: 390px)
+    .half-page {
+        flex-direction: column;
+        align-content: center;
+    }
+    /* for smart watch*/
+    @media only screen and (max-width: 390px)
 }
