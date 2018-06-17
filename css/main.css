@@ -230,6 +230,9 @@ a {
 .main-footer {
     background: gray;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
 .graphic {
@@ -238,7 +241,7 @@ a {
 }
 
 .graphic img {
-    max-width: 100px;
+    max-width: 50px;
 }
 
 
