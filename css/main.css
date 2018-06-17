@@ -159,7 +159,7 @@ a {
     border-radius: 60px;
 }
 
-.thumbnail:hover {
+.thumbnail img:hover {
     width: 400px;
 }
 
