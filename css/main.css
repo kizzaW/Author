@@ -198,6 +198,7 @@ a {
     border-style: solid;
     box-sizing: border-box;
     height: max-content;
+    background: black;
 }
 
 .image-slider {
