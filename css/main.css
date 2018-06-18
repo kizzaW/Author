@@ -269,13 +269,18 @@ a {
         display: block;
         margin-left: auto;
     }
-    .info-box {
-        max-width: 99%;
-    }
-    .half-page {
-        flex-direction: column;
-        align-content: center;
-    }
-    /* for smart watch*/
-    @media only screen and (max-width: 390px)
 }
+
+.info-box {
+    max-width: 99%;
+}
+
+.half-page {
+    flex-direction: column;
+    align-content: center;
+}
+
+
+/* for smart watch*/
+
+@media only screen and (max-width: 390px) {}
