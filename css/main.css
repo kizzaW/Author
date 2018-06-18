@@ -253,6 +253,10 @@ a {
 
 .graphic {
     max-width: 100px;
+    padding: 25px;
+    border: solid black;
+    border-radius: 50px;
+    background: white;
     margin: 1em auto;
 }
 
