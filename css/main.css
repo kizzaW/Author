@@ -241,11 +241,14 @@ a {
 }
 
 .half-page {
-    max-width: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
     justify-content: flex-start;
+    -webkit-box-flex: inherit;
+    -ms-flex-align: baseline;
+    max-width: 50%;
 }
 
 .graphic {
