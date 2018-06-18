@@ -275,7 +275,7 @@ a {
     .info-box {
         max-width: 99%;
     }
-    ) .half-page {
+    .half-page {
         flex-direction: column;
         align-content: center;
         max-width: 100%;
