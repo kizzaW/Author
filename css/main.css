@@ -272,15 +272,13 @@ a {
         display: block;
         margin-left: auto;
     }
-}
-
-.info-box {
-    max-width: 99%;
-}
-
-.half-page {
-    flex-direction: column;
-    align-content: center;
+    .info-box {
+        max-width: 99%;
+    }
+    .half-page {
+        flex-direction: column;
+        align-content: center;
+    }
 }
 
 
