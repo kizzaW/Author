@@ -290,6 +290,13 @@ a {
     .image-slider {
         max-height: 270px;
     }
+    .graphic {
+        max-height: 50px;
+        padding: 10px;
+    }
+    .graphic img {
+        max-width: 35px;
+    }
 }
 
 
