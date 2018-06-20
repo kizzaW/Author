@@ -283,8 +283,6 @@ a {
         max-width: 99%;
     }
     .half-page {
-        flex-direction: column;
-        align-content: center;
         max-width: 100%;
     }
     .image-slider {
