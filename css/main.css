@@ -203,7 +203,6 @@ a {
 
 .image-slider {
     position: relative;
-    width: 96%;
     height: 600px;
     overflow: hidden;
     margin: auto;
@@ -269,7 +268,11 @@ a {
 
 @media only screen and (max-width:1250px) {}
 
-@media only screen and (max-width:768px) {}
+@media only screen and (max-width:768px) {
+    .image-slider {
+        max-height: 540px;
+    }
+}
 
 @media only screen and (max-width:420px) {
     .second-headings {
