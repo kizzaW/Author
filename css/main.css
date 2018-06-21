@@ -57,7 +57,7 @@ a {
     flex-flow: row wrap;
     -ms-flex-align: baseline;
     justify-content: space-around;
-    background: url('/Author/img/bookssmall.jpg') no-repeat center center fixed;
+    background: url('/Author/img/typewriter.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
