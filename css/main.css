@@ -87,7 +87,7 @@ a {
 .main-page-content {
     background: black;
     flex-direction: row-reverse;
-    align-content: flex-start;
+    align-items: flex-start;
 }
 
 .info-box {
