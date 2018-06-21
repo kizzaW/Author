@@ -276,6 +276,12 @@ a {
     }
 }
 
+@media only screen and (max-width:540px) {
+    .image-slider {
+        max-height: 360px;
+    }
+}
+
 @media only screen and (max-width:420px) {
     .second-headings {
         display: block;
