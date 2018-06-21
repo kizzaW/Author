@@ -272,6 +272,9 @@ a {
     .image-slider {
         max-height: 540px;
     }
+    .half-page {
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width:420px) {
@@ -281,9 +284,6 @@ a {
     }
     .info-box {
         max-width: 99%;
-    }
-    .half-page {
-        max-width: 100%;
     }
     .image-slider {
         max-height: 270px;
