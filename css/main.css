@@ -85,7 +85,7 @@ a {
 /** Main page content**/
 
 .main-page-content {
-    background: #D3D3D3;
+    background: black;
     flex-direction: row-reverse;
     align-content: flex-start;
 }
