@@ -26,9 +26,11 @@ body:focus {
 }
 
 .titledHeading {
-    font-size: 2rem;
+    margin-left: 10%;
+    font-size: 4rem;
     font-style: oblique;
-    transform: skew(25deg)
+    transform: skewy(-7deg);
+    text-decoration-line: underline;
 }
 
 
@@ -91,7 +93,7 @@ a {
 /** Main page content**/
 
 .main-page-content {
-    background: black;
+    background: slategrey;
     flex-direction: row-reverse;
     align-items: flex-start;
 }
