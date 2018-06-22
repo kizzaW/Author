@@ -25,6 +25,12 @@ body:focus {
     float: right;
 }
 
+.titledHeading {
+    font-size: 2rem;
+    font-style: oblique;
+    transform: skew(25deg)
+}
+
 
 /*** Navigation**/
 
