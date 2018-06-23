@@ -27,7 +27,7 @@ body:focus {
 
 .titledHeading {
     margin-left: 10%;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-style: oblique;
     transform: skewy(-7deg);
     text-decoration-line: underline;
@@ -75,6 +75,7 @@ a {
 
 .authorProfile h1 {
     font-size: 6.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
     text-align: center;
     margin-top: 15%;
