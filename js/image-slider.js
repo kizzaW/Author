@@ -1,22 +1,3 @@
-//sticky header When the user scrolls the page, execute myFunction 
-window.onscroll = function() { stickHeaderTop() };
-
-
-var header = document.getElementById("nav-bar");
-
-var sticky = header.offsetTop;
-
-function stickHeaderTop() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    } else {
-        header.classList.remove("sticky");
-    }
-}
-
-
-
-
 var slideIndex = 0;
 var slides = document.getElementsByClassName("Slides");
 
