@@ -19,5 +19,5 @@ function showSlides() {
             slides[otherPanelIndexes].classList.add('hide');
         }
     }
-} // Change image duration
+} // Change image duration 
 setInterval(showSlides, 8000)
