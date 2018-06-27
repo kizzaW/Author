@@ -20,14 +20,3 @@ function showSlides() {
         }
     }
 } // Change image every 5 seconds
-
-
-// *setInterval(showSlides, 8000)
-
-
-var bookdisplay
-var bookid = document.onmouseover('bookid');
-
-function displayBookContent() {
-
-} //
