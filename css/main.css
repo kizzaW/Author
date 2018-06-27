@@ -74,6 +74,7 @@ a {
 }
 
 .authorProfile h1 {
+    font-family: 'Frank Ruhl Libre', serif;
     font-size: 6.4rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
@@ -84,6 +85,7 @@ a {
 }
 
 .authorProfile h3 {
+    font-family: 'Frank Ruhl Libre', serif;
     font-size: 2.4rem;
     text-align: center;
     margin-top: 15%;
