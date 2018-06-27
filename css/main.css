@@ -309,6 +309,9 @@ a {
 }
 
 @media only screen and (max-width:420px) {
+    .nav-bar ul {
+        flex-direction: column;
+    }
     .second-headings {
         display: block;
         margin-left: auto;
