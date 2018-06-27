@@ -19,4 +19,4 @@ function showSlides() {
             slides[otherPanelIndexes].classList.add('hide');
         }
     }
-} // Change image every 5 seconds
+}
