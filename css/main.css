@@ -33,6 +33,10 @@ body:focus {
     text-decoration-line: underline;
 }
 
+.titledHeading {
+    margin: 1px 0px 40px 0px;
+}
+
 
 /*** Navigation**/
 
