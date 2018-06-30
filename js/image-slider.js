@@ -21,7 +21,12 @@ function showSlides() {
     }
 } // Change image duration 
 setInterval(showSlides, 8000)
-    /*
-    var enlarge = document.getElementsByClassName('book')function resizeBook {
-        book.onclick =
-    */
+
+
+
+function popup() {
+    var popup =
+
+        document.getElementByClassName("popup");
+    popup.classList.toggle("show");
+}

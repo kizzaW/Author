@@ -192,7 +192,27 @@ a {
     width: 400px;
 }
 
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
 
+.popup .popupText {
+    visibility: hidden;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+
+/** popup classes*/
+
+/
 /** Photo box and gallery**/
 
 .photobox {
