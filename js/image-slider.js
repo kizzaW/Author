@@ -22,7 +22,7 @@ function showSlides() {
 } // Change image duration 
 setInterval(showSlides, 8000)
 
-
+/*
 
 function popup() {
     var popup =
@@ -30,3 +30,4 @@ function popup() {
         document.getElementByClassName("popup");
     popup.classList.toggle("show");
 }
+*/
