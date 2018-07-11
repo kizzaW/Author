@@ -188,33 +188,18 @@ a {
     border-radius: 60px;
 }
 
-.popup:hover {
-    visibility: visible
-}
-
-.popup,
-.popupText {
-    visibility: hidden;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-
-.popup .popupText {
-    visibility: hidden;
-    width: 100%;
-    background: #fff;
-    text-align: center;
-    z-index: 1;
-}
-
 
 /** popup classes*/
 
-/
+.popup:hover {
+    visibility: visible;
+}
+
+.popup {
+    visibility: hidden;
+}
+
+
 /** Photo box and gallery**/
 
 .photobox {
