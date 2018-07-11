@@ -191,12 +191,38 @@ a {
 
 /** popup classes*/
 
-.popup:hover {
-    visibility: visible;
+.popup {
+    position: relative;
+    display: inline-block;
 }
 
-.popup {
+.popup .popupText {
     visibility: hidden;
+    width: 50%;
+    background-color: azure;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.popup .popupText:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
 }
 
 
