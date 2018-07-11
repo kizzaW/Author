@@ -188,7 +188,7 @@ a {
     border-radius: 60px;
 }
 
-.thumbnail img:hover {
+.thumbnail {
     width: 400px;
 }
 
