@@ -188,11 +188,13 @@ a {
     border-radius: 60px;
 }
 
-.thumbnail:hover {
-    width: 400px;
+.popup:hover {
+    visibility: visible
 }
 
-.popup {
+.popup,
+.popupText {
+    visibility: hidden;
     position: relative;
     display: inline-block;
     cursor: pointer;
