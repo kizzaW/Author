@@ -182,8 +182,6 @@ a {
     height: inherit;
 }
 
-.advert-box:hover {}
-
 .thumbnail {
     height: 130px;
     width: 160px;
@@ -193,10 +191,13 @@ a {
 
 /** popup classes*/
 
-.open a {
-    text-align: center;
-    background-color: #fff;
-    font-family: fantasy;
+.open {
+    background-color: white;
+    border: solid grey 5px:
+}
+
+.open a:hover {
+    background-color: gold;
 }
 
 
