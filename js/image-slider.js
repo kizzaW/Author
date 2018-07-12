@@ -21,5 +21,3 @@ function showSlides() {
     }
 } // Change image duration 
 setInterval(showSlides, 8000)
-
-//function popupbox()   var popup = document.getElementById("contentPopup");popup.classList.toggle("show");}
