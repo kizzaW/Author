@@ -192,13 +192,13 @@ a {
 /** popup classes*/
 
 .open {
-    background-color: white;
-    border: solid grey 5px;
-    margin: 5px;
+    background: white;
+    margin: 10px;
     padding: 2px;
+    border: solid grey 2px;
 }
 
-.open a:hover {
+.open {
     background-color: gold;
 }
 
