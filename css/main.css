@@ -168,7 +168,7 @@ a {
 
 .advert-box {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-end;
     border: solid 5px white;
@@ -193,7 +193,9 @@ a {
 
 .open {
     background-color: white;
-    border: solid grey 5px:
+    border: solid grey 5px;
+    margin: 5px;
+    padding: 2px;
 }
 
 .open a:hover {
