@@ -21,3 +21,11 @@ function showSlides() {
     }
 } // Change image duration 
 setInterval(showSlides, 8000)
+
+
+function open_modal(id)(
+    var e = document.getElementById('modal');
+    if (e.style.display == "none") {
+        e.style.display = "block";
+    }
+)

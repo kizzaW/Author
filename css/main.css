@@ -191,6 +191,19 @@ a {
 
 /** popup classes*/
 
+.modal {
+    top: 100px;
+    left: 400px;
+    background: red;
+    color: #fff;
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    display: none;
+}
+
 .open {
     width: 125px;
     height: 25px;
@@ -206,13 +219,10 @@ a {
     text-decoration: none;
     vertical-align: middle;
     background: #fff;
-    width: 130px;
-    height: 64px;
-    padding: 20px;
 }
 
 .open a:hover {
-    background: #fff;
+    background: grey;
     color: cadetblue;
     border: 1px solid cadetblue;
 }
@@ -352,6 +362,9 @@ a {
     .image-slider {
         max-height: 270px;
     }
+    .custom-blocks {
+        justify-content: center;
+    }
     .graphic {
         max-height: 50px;
         padding: 10px;
@@ -365,3 +378,5 @@ a {
 /* for smart watch*/
 
 @media only screen and (max-width: 390px) {}
+
+s
