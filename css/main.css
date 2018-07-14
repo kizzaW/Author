@@ -197,10 +197,22 @@ a {
     padding: 2px;
     background: white;
     border: solid grey 2px;
+    background-color: gold;
 }
 
-.open {
-    background-color: gold;
+.open a {
+    text-decoration: none;
+    vertical-align: middle;
+    background: #fff;
+    width: 130px;
+    height: 64px;
+    padding: 20px;
+}
+
+.open a:hover {
+    background: #fff;
+    color: cadetblue;
+    border: 1px solid cadetblue;
 }
 
 
