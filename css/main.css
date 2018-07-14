@@ -192,12 +192,14 @@ a {
 /** popup classes*/
 
 .open {
-    height: 20px;
-    margin: 10px;
-    padding: 2px;
+    width: 125px;
+    height: 25px;
+    margin: 5px;
+    padding: 21px;
     background: white;
     border: solid grey 2px;
-    background-color: gold;
+    text-align: center;
+    text-overflow: unset;
 }
 
 .open a {
