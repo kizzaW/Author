@@ -208,7 +208,7 @@ a {
     width: 125px;
     height: 25px;
     margin: 5px;
-    padding: 21px;
+    padding: 10px;
     background: white;
     border: solid grey 2px;
     text-align: center;
@@ -216,6 +216,7 @@ a {
 }
 
 .open a {
+    text-align: center;
     text-decoration: none;
     vertical-align: middle;
     background: #fff;
