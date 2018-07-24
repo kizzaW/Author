@@ -24,11 +24,7 @@ setInterval(showSlides, 8000)
 
 
 function open_modal(id) {
-    var e = document.getElemgetentById('modal-1');
-    var e = document.getElemgetentById('modal-2');
-    var e = document.getElemgetentById('modal-3');
-    var e = document.getElemgetentById('modal-4');
-
+    var e = document.getElemgetentById('modal');
     if (e.style.display == "none") {
         e.style.display = "block";
     } else {
