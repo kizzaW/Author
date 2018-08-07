@@ -191,7 +191,7 @@ a {
 
 /** popup classes*/
 
-.modal {
+.modalBoxContent {
     top: 100px;
     left: 400px;
     background: red;
