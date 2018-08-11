@@ -1,196 +1,184 @@
-/** Global**/
-
-html,
-body {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-}
-
-body:focus {
-    outline: none;
-}
-
-
-/*** Site header**/
-
-.site-top {
-    width: 100%;
-}
-
-.site-top a {
-    float: right;
-}
-
-.titledHeading {
-    margin-left: 10%;
-    font-size: 3.5rem;
-    font-style: oblique;
-    transform: skewy(-7deg);
-    text-decoration-line: underline;
-}
-
-
-/*** Navigation**/
-
-.site-top h1 {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    padding: 5px;
-}
-
-.nav-bar ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-evenly;
-}
-
-.nav-bar li {
-    padding: 10px;
-}
-
-
-/** background and base styles**/
-
-.container-noMargin {
-    display: flex;
-    padding: 10px 2px;
-    flex-flow: row wrap;
-    -ms-flex-align: baseline;
-    justify-content: space-around;
-    background: url('/Author/img/typewriter.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.authorProfile h1 {
-    font-family: 'Frank Ruhl Libre', serif;
-    font-size: 6.4rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 100%;
-    text-align: center;
-    margin-top: 15%;
-    color: white;
-    text-shadow: 5px 5px 4px #778899;
-    margin-bottom: 0px;
-}
-
-.authorProfile h3 {
-    font-family: 'Frank Ruhl Libre', serif;
-    font-size: 2.4rem;
-    text-align: center;
-    margin-top: 15%;
-    color: white;
-}
-
-
-/** Main page content**/
-
-.main-page-content {
-    background: slategrey;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-}
-
-.info-box {
-    box-sizing: border-box;
-    max-width: 49%;
-    padding: 32px;
-    margin: 5%;
-    display: flex;
-    background: white;
-    opacity: 0.8;
-    border-radius: 15px;
-}
-
-.info-box p {
-    margin: auto;
-}
-
-.content-box {
-    font-size: 1.1rem;
-    justify-content: space-between;
-    -ms-flex-align: baseline;
-    box-sizing: border-box;
-    max-width: 49%;
-    padding: 32px;
-    margin: 5%;
-    height: inherit;
-    display: flex;
-}
-
-.container-segment h1 {
-    text-decoration: underline black;
-    color: red;
-    text-align: center;
-}
-
-.custom-blocks {
-    display: flex;
-    padding: 10px 2px;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    background: #D3D3D3
-}
-
-
-/**associated with custom blocks Flex grow  items**/
-
-.item1 {
-    flex-grow: 2;
-}
-
-.item2 {
-    flex-grow: 2;
-}
-
-.item3 {
-    flex-grow: 2;
-}
-
-.item4 {
-    flex-grow: 2;
-}
-
-.info1 {
-    flex-shrink: 4;
-}
-
-.advert-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    border: solid 5px white;
-    width: 200px;
-    margin: 10px;
-    padding: 10px 20px;
-    color: white;
-    flex-direction: row;
-    background: black;
-    box-sizing: border-box;
-    height: inherit;
-}
-
-.thumbnail {
-    height: 130px;
-    width: 160px;
-    border-radius: 60px;
-}
-
-
-/** popup classes*/
-
+        /** Global**/
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    
+    body:focus {
+        outline: none;
+    }
+    /*** Site header**/
+    
+    .site-top {
+        width: 100%;
+    }
+    
+    .site-top a {
+        float: right;
+    }
+    
+    .titledHeading {
+        margin-left: 10%;
+        font-size: 3.5rem;
+        font-style: oblique;
+        transform: skewy(-7deg);
+        text-decoration-line: underline;
+    }
+    /*** Navigation**/
+    
+    .site-top h1 {
+        text-align: center;
+    }
+    
+    a {
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .nav-bar ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+    
+    .nav-bar li {
+        padding: 10px;
+    }
+    /** background and base styles**/
+    
+    .container-noMargin {
+        display: flex;
+        padding: 10px 2px;
+        flex-flow: row wrap;
+        -ms-flex-align: baseline;
+        justify-content: space-around;
+        background: url('/Author/img/typewriter.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .authorProfile h1 {
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 6.4rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 100%;
+        text-align: center;
+        margin-top: 15%;
+        color: white;
+        text-shadow: 5px 5px 4px #778899;
+        margin-bottom: 0px;
+    }
+    
+    .authorProfile h3 {
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 2.4rem;
+        text-align: center;
+        margin-top: 15%;
+        color: white;
+    }
+    /** Main page content**/
+    
+    .main-page-content {
+        background: slategrey;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    
+    .info-box {
+        box-sizing: border-box;
+        max-width: 49%;
+        padding: 32px;
+        margin: 5%;
+        display: flex;
+        background: white;
+        opacity: 0.8;
+        border-radius: 15px;
+    }
+    
+    .info-box p {
+        margin: auto;
+    }
+    
+    .content-box {
+        font-size: 1.1rem;
+        justify-content: space-between;
+        -ms-flex-align: baseline;
+        box-sizing: border-box;
+        max-width: 49%;
+        padding: 32px;
+        margin: 5%;
+        height: inherit;
+        display: flex;
+    }
+    
+    .container-segment h1 {
+        text-decoration: underline black;
+        color: red;
+        text-align: center;
+    }
+    
+    .custom-blocks {
+        display: flex;
+        padding: 10px 2px;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        background: #D3D3D3
+    }
+    /**associated with custom blocks Flex grow  items**/
+    
+    .item1 {
+        flex-grow: 2;
+    }
+    
+    .item2 {
+        flex-grow: 2;
+    }
+    
+    .item3 {
+        flex-grow: 2;
+    }
+    
+    .item4 {
+        flex-grow: 2;
+    }
+    
+    .info1 {
+        flex-shrink: 4;
+    }
+    
+    .advert-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        border: solid 5px white;
+        width: 200px;
+        margin: 10px;
+        padding: 10px 20px;
+        color: white;
+        flex-direction: row;
+        background: black;
+        box-sizing: border-box;
+        height: inherit;
+    }
+    
+    .thumbnail {
+        height: 130px;
+        width: 160px;
+        border-radius: 60px;
+    }
+    /** popup classes*/
+    /**
 .modal {
     top: 100px;
     left: 400px;
@@ -204,179 +192,188 @@ a {
     display: none;
     visibility: hidden;
 }
-
-.open {
-    width: 125px;
-    height: 25px;
-    margin: 5px;
-    padding: 10px;
-    background: white;
-    border: solid grey 2px;
-    text-align: center;
-    text-overflow: unset;
-}
-
-.open a {
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    background: #fff;
-}
-
-.open a:hover {
-    background: grey;
-    color: cadetblue;
-    border: 1px solid cadetblue;
-}
-
-
-/** Photo box and gallery**/
-
-.photobox {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.photobox img {
-    max-width: 280px;
-    max-height: 280px;
-    top: 35px;
-    margin: 13%;
-    padding: 14px 13px;
-    border-width: 10px;
-    border-radius: 10px;
-    background: #fff;
-}
-
-.image-2 img {
-    max-height: 350px;
-    top: 35px;
-    margin: 13%;
-    padding: 14px 13px;
-    border-width: 10px;
-    border-radius: 10px;
-    background: #fff;
-}
-
-.display-carousel {
-    overflow: hidden;
-    border-style: solid;
-    box-sizing: border-box;
-    height: max-content;
-    background: black;
-}
-
-.image-slider {
-    position: relative;
-    height: 600px;
-    overflow: hidden;
-    margin: auto;
-    border: 20px solid black;
-}
-
-.image-slider img {
-    margin: auto;
-    max-height: 550px;
-    width: 100%;
-}
-
-.show {
-    opacity: 1;
-}
-
-.hide {
-    opacity: 0;
-}
-
-.animate {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transition: 1.5s ease-in-out opacity;
-}
-
-
-/* footer*/
-
-.main-footer {
-    background: gray;
-}
-
-.half-page {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: flex-start;
-    -webkit-box-flex: inherit;
-    -ms-flex-align: baseline;
-    max-width: 50%;
-}
-
-.graphic {
-    max-width: 100px;
-    padding: 25px;
-    border: solid black;
-    border-radius: 50px;
-    background: white;
-    margin: 1em auto;
-}
-
-.graphic img {
-    max-width: 50px;
-}
-
-
-/* media */
-
-@media only screen and (max-width:1250px) {}
-
-@media only screen and (max-width:768px) {
-    .image-slider {
-        max-height: 540px;
+*/
+    
+    #modal-one {
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        height: 120%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;
     }
-    .half-page {
-        max-width: 100%;
-    }
-}
-
-@media only screen and (max-width:540px) {
-    .image-slider {
-        max-height: 360px;
-    }
-}
-
-@media only screen and (max-width:420px) {
-    .nav-bar ul {
-        width: 75%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .second-headings {
-        display: block;
-        margin-left: auto;
-    }
-    .info-box {
-        max-width: 99%;
-    }
-    .image-slider {
-        max-height: 270px;
-    }
-    .custom-blocks {
-        justify-content: center;
-    }
-    .graphic {
-        max-height: 50px;
-        padding: 10px;
-    }
-    .graphic img {
-        max-width: 35px;
-    }
-}
-
-
-/* for smart watch*/
-
-@media only screen and (max-width: 390px) {}
+    
+    #modal-two {
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        height: 120%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;
+        #modal-three {
+            top: 0;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            height: 120%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: none;
+        }
+        #modal-four {
+            top: 0;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            height: 120%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: none;
+        }
+        .open {
+            width: 125px;
+            height: 25px;
+            margin: 5px;
+            padding: 10px;
+            background: white;
+            border: solid grey 2px;
+            text-align: center;
+            text-overflow: unset;
+        }
+        .open a {
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            background: #fff;
+        }
+        .open a:hover {
+            background: grey;
+            color: cadetblue;
+            border: 1px solid cadetblue;
+        }
+        /** Photo box and gallery**/
+        .photobox {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .photobox img {
+            max-width: 280px;
+            max-height: 280px;
+            top: 35px;
+            margin: 13%;
+            padding: 14px 13px;
+            border-width: 10px;
+            border-radius: 10px;
+            background: #fff;
+        }
+        .image-2 img {
+            max-height: 350px;
+            top: 35px;
+            margin: 13%;
+            padding: 14px 13px;
+            border-width: 10px;
+            border-radius: 10px;
+            background: #fff;
+        }
+        .display-carousel {
+            overflow: hidden;
+            border-style: solid;
+            box-sizing: border-box;
+            height: max-content;
+            background: black;
+        }
+        .image-slider {
+            position: relative;
+            height: 600px;
+            overflow: hidden;
+            margin: auto;
+            border: 20px solid black;
+        }
+        .image-slider img {
+            margin: auto;
+            max-height: 550px;
+            width: 100%;
+        }
+        .show {
+            opacity: 1;
+        }
+        .hide {
+            opacity: 0;
+        }
+        .animate {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transition: 1.5s ease-in-out opacity;
+        }
+        /* footer*/
+        .main-footer {
+            background: gray;
+        }
+        .half-page {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: flex-start;
+            -webkit-box-flex: inherit;
+            -ms-flex-align: baseline;
+            max-width: 50%;
+        }
+        .graphic {
+            max-width: 100px;
+            padding: 25px;
+            border: solid black;
+            border-radius: 50px;
+            background: white;
+            margin: 1em auto;
+        }
+        .graphic img {
+            max-width: 50px;
+        }
+        /* media */
+        @media only screen and (max-width:1250px) {}
+        @media only screen and (max-width:768px) {
+            .image-slider {
+                max-height: 540px;
+            }
+            .half-page {
+                max-width: 100%;
+            }
+        }
+        @media only screen and (max-width:540px) {
+            .image-slider {
+                max-height: 360px;
+            }
+        }
+        @media only screen and (max-width:420px) {
+            .nav-bar ul {
+                width: 75%;
+                flex-direction: column;
+                align-items: center;
+            }
+            .second-headings {
+                display: block;
+                margin-left: auto;
+            }
+            .info-box {
+                max-width: 99%;
+            }
+            .image-slider {
+                max-height: 270px;
+            }
+            .custom-blocks {
+                justify-content: center;
+            }
+            .graphic {
+                max-height: 50px;
+                padding: 10px;
+            }
+            .graphic img {
+                max-width: 35px;
+            }
+        }
+        /* for smart watch*/
+        @media only screen and (max-width: 390px) {}
