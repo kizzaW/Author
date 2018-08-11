@@ -192,15 +192,16 @@ a {
 /** popup classes*/
 
 .modal {
+    width: 500px;
+    height: fit-content;
+    position: fixed;
+    padding: 20px;
+    float: left;
+    text-align: center;
     top: 100px;
     left: 400px;
-    background: red;
+    background: black;
     color: #fff;
-    position: fixed;
-    width: 500px;
-    height: 200px;
-    text-align: center;
-    display: none;
 }
 
 .open {
@@ -214,14 +215,16 @@ a {
     text-overflow: unset;
 }
 
-.open a {
+.open,
+.close a {
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
     background: #fff;
 }
 
-.open a:hover {
+.open,
+.close a:hover {
     background: grey;
     color: cadetblue;
     border: 1px solid cadetblue;
