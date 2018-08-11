@@ -192,9 +192,8 @@ a {
 /** popup classes*/
 
 .modal {
-    width: 500px;
     height: fit-content;
-    position: fixed;
+    position: initial;
     padding: 20px;
     float: left;
     text-align: center;
@@ -206,7 +205,6 @@ a {
 }
 
 .ModalContent {
-    display: flex;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease-in opacity;
 }
 
