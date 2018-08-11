@@ -97,7 +97,7 @@ a {
 /** Main page content**/
 
 .main-page-content {
-    background: slategrey;
+    background: #f4f4f4;
     flex-direction: row-reverse;
     align-items: flex-start;
 }
@@ -108,7 +108,7 @@ a {
     padding: 32px;
     margin: 5%;
     display: flex;
-    background: white;
+    background: #c0b283;
     opacity: 0.8;
     border-radius: 15px;
 }
@@ -171,13 +171,13 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-end;
-    border: solid 5px white;
+    border: solid 5px #c0b283;
     width: 200px;
     margin: 10px;
     padding: 10px 20px;
     color: white;
     flex-direction: row;
-    background: black;
+    background: #373737;
     box-sizing: border-box;
     height: inherit;
 }
@@ -248,7 +248,7 @@ a {
     padding: 14px 13px;
     border-width: 10px;
     border-radius: 10px;
-    background: #fff;
+    background: #c0b283;
 }
 
 .image-2 img {
@@ -258,7 +258,7 @@ a {
     padding: 14px 13px;
     border-width: 10px;
     border-radius: 10px;
-    background: #fff;
+    background: #c0b283;
 }
 
 .display-carousel {
