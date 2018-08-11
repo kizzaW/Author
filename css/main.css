@@ -139,7 +139,7 @@ a {
     display: flex;
     padding: 10px 2px;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: #D3D3D3
 }
 
