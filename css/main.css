@@ -206,10 +206,6 @@ a {
     display: none;
 }
 
-.modal-fade {
-    transition: 1.5s ease-in-out opacity;
-}
-
 .open {
     width: 125px;
     height: 25px;
@@ -304,8 +300,6 @@ a {
     bottom: 0;
     transition: 1.5s ease-in-out opacity;
 }
-
-.animation {}
 
 
 /* footer*/
