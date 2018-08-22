@@ -192,10 +192,6 @@ a {
 /** popup classes*/
 
 .modal {
-    visibility: hidden
-}
-
-.modal:hover {
     width: 450px;
     height: fit-content;
     margin: 10px;
