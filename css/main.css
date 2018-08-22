@@ -201,8 +201,8 @@ a {
     text-align: center;
     top: 100px;
     left: 400px;
-    background: black;
-    color: #fff;
+    background: #f4f4f4;
+    color: #DCD0C0;
     display: none;
 }
 
@@ -234,6 +234,9 @@ a {
 
 .close img {
     width: 20px;
+    position: relative;
+    margin: 10px;
+    float: left;
 }
 
 
