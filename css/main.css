@@ -204,6 +204,7 @@ a {
     background: black;
     color: #fff;
     display: none;
+    visibility: hidden;
 }
 
 .popup {
