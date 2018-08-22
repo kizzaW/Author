@@ -204,6 +204,12 @@ a {
     background: black;
     color: #fff;
     display: none;
+    opacity: 0;
+}
+
+.animation {
+    opacity: 1;
+    transition: 1.5s ease-in-out opacity;
 }
 
 .open {
