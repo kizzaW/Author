@@ -271,18 +271,17 @@ a {
 
 .display-carousel {
     overflow: hidden;
-    border-style: solid;
     box-sizing: border-box;
     height: max-content;
-    background: black;
+    background: #f4f4f4;
 }
 
 .image-slider {
+    max-width: 80%;
     position: relative;
     height: 600px;
     overflow: hidden;
     margin: auto;
-    border: 20px solid black;
 }
 
 .image-slider img {
