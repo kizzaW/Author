@@ -26,7 +26,7 @@ setInterval(showSlides, 8000)
 function toggle_visibility(id) {
     var e = document.getElementById(id);
     if (e.style.display == 'block')
-        e.style.display = 'none';
+        e.style.display = 'hidden';
     else
         e.style.display = 'block';
 }
