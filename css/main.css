@@ -183,7 +183,7 @@ a {
     left: 400px;
     background: #f4f4f4;
     color: #C0B283;
-    display: none;
+    opacity: 0;
 }
 
 .open {
