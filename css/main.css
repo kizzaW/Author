@@ -146,26 +146,6 @@ a {
 
 /**associated with custom blocks Flex grow  items**/
 
-.item1 {
-    flex-grow: 2;
-}
-
-.item2 {
-    flex-grow: 2;
-}
-
-.item3 {
-    flex-grow: 2;
-}
-
-.item4 {
-    flex-grow: 2;
-}
-
-.info1 {
-    flex-shrink: 4;
-}
-
 .advert-box {
     display: flex;
     flex-wrap: wrap;
@@ -215,6 +195,11 @@ a {
     border: solid grey 2px;
     text-align: center;
     text-overflow: unset;
+}
+
+.fade {
+    opacity: 1;
+    transition: opacity 1.5s ease-in;
 }
 
 .open,
