@@ -28,5 +28,5 @@ function toggle_visibility(id) {
     if (e.style.opacity == '1')
         e.style.opacity = '0';
     else
-        e.style.opacity = '0';
+        e.style.opacity = '1';
 }
