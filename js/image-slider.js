@@ -25,8 +25,8 @@ setInterval(showSlides, 8000)
 
 function toggle_visibility(id) {
     var e = document.getElementById(id);
-    if (e.style.opacity == '1')
-        e.style.opacity = '0';
+    if (e.style.opacity == '0')
+        e.style.opacity = '1';
     else
         e.style.opacity = '1';
 }
