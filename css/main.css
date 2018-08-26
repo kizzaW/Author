@@ -199,9 +199,9 @@ a {
 
 .fade {
     opacity: 1;
-    transition: opacity 1.5s ease-in;
-    -moz-transition: opacity 1.5s ease-in;
-    -webkit-transition: opacity 1.5s ease-in;
+    transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -webkit-transition: opacity 1s ease-in;
 }
 
 .open,
