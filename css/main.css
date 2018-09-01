@@ -168,6 +168,19 @@ a {
     border-radius: 60px;
 }
 
+.infoSpan {
+    display: flex;
+}
+
+.infoItemOne {
+    width: 50%;
+    margin: 20%;
+}
+
+.infoItemTwo {
+    width: 50%;
+}
+
 
 /** popup classes*/
 
