@@ -175,6 +175,8 @@ a {
 }
 
 .infoSpan {
+    width: 70%;
+    padding: 10%;
     display: flex;
 }
 
