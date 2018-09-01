@@ -65,11 +65,6 @@ a {
     flex-flow: row wrap;
     -ms-flex-align: baseline;
     justify-content: space-around;
-    background: url('/Author/img/typewriter.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .authorProfile h1 {
@@ -96,9 +91,13 @@ a {
 /** Main page content**/
 
 .main-page-content {
-    background: #f4f4f4;
     flex-direction: row-reverse;
     align-items: flex-start;
+    background: url('/Author/img/typewriter.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .infoSpan {
