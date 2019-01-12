@@ -181,12 +181,12 @@ a {
 }
 
 .infoItemOne {
-    width: 50%;
+    max-height: 350px;
     margin: 5%;
 }
 
 .infoItemTwo {
-    width: 50%;
+    max-height: 350px;
 }
 
 
