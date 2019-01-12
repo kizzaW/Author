@@ -101,7 +101,7 @@ a {
 .main-page-content {
     flex-direction: row-reverse;
     align-items: flex-start;
-    background: url('/Author/img/floral.svg') no-repeat center center fixed;
+    background: #dcd0c0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
