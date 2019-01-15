@@ -33,6 +33,15 @@ body:focus {
     text-decoration-line: underline;
 }
 
+.icon-header {
+    width: 200px;
+    float: left;
+    left: 0px;
+    top: 0px;
+    margin: 5px;
+    z-index: 1;
+}
+
 .icon-header img {
     max-height: 20px;
 }
