@@ -33,6 +33,10 @@ body:focus {
     text-decoration-line: underline;
 }
 
+.icon-header img {
+    max-height: 20px;
+}
+
 
 /*** Navigation**/
 
