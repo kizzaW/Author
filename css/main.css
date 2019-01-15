@@ -366,9 +366,6 @@ a {
 @media only screen and (max-width:1250px) {}
 
 @media only screen and (max-width:768px) {
-    .site-top {
-        height: ;
-    }
     .image-slider {
         max-height: 540px;
     }
