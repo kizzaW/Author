@@ -23,7 +23,7 @@ function showSlides() {
 setInterval(showSlides, 8000)
 
 
-function toggle_visibility(id) {
+function toggleOpen(id) {
     var popout = document.getElementById(id);
     if (popout.style.opacity == '1')
         popout.style.opacity = '0';
