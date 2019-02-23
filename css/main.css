@@ -113,6 +113,8 @@ a {
 
 /** Main page content**/
 
+#authorimg {}
+
 .main-page-content {
     flex-direction: row-reverse;
     align-items: flex-start;
