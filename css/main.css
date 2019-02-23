@@ -113,7 +113,14 @@ a {
 
 /** Main page content**/
 
-#authorimg {}
+#authorimg {
+    max-width: 450px;
+    border: solid 5px;
+    border-radius: 382px;
+    position: relative;
+    z-index: 1;
+    top: 50px;
+}
 
 .main-page-content {
     flex-direction: row-reverse;
@@ -347,6 +354,7 @@ a {
     -webkit-box-flex: inherit;
     -ms-flex-align: baseline;
     max-width: 50%;
+    z-index: 1;
 }
 
 .graphic {
