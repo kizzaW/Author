@@ -200,17 +200,16 @@ a {
 
 .infoSpan {
     width: 70%;
-    padding: 10%;
+    padding: 2%;
     display: flex;
+    max-height: 940px;
+    background: white;
+    margin: 5px;
 }
 
 .infoItemOne {
-    max-height: 350px;
-    margin: 5%;
-}
-
-.infoItemTwo {
-    max-height: 350px;
+    max-height: fit-content;
+    margin: 6%;
 }
 
 
