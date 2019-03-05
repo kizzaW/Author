@@ -99,7 +99,7 @@ a {
     position: relative;
     z-index: 1;
     top: 31px;
-    border-bottom: solid 5px gold;
+    border-bottom: solid 15px gold;
 }
 
 .authorProfile h1 {
@@ -210,11 +210,11 @@ a {
 
 .infoSpan {
     width: 70%;
-    padding: 2%;
+    padding: 5px;
     display: flex;
     max-height: 940px;
     background: white;
-    margin: 5px;
+    margin-bottom: 25px;
 }
 
 .infoItemOne {
