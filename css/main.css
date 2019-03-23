@@ -281,6 +281,11 @@ a {
     float: left;
 }
 
+.postionOneModalbox {
+    z-index: 1;
+    display: flex;
+}
+
 
 /** Photo box and gallery**/
 
