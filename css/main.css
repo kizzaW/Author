@@ -241,6 +241,14 @@ a {
     opacity: 0;
 }
 
+.modal-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    z-index: 3;
+    background: aqua;
+}
+
 .open {
     width: 125px;
     height: 25px;
@@ -284,6 +292,8 @@ a {
 .postionOneModalbox {
     z-index: 1;
     display: flex;
+    background: blueviolet;
+    height: 100px;
 }
 
 
