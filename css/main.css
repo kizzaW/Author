@@ -290,10 +290,12 @@ a {
 }
 
 .postionOneModalbox {
-    z-index: 1;
+    z-index: -1;
     display: flex;
     background: blueviolet;
-    height: 100px;
+    height: fit-content;
+    position: relative;
+    top: 100px;
 }
 
 
